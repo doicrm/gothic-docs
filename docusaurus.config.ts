@@ -18,6 +18,7 @@ const config: Config = {
   organizationName: 'doicrm', // Usually your GitHub org/user name.
   projectName: 'gothic-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

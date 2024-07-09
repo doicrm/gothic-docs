@@ -1,6 +1,6 @@
 {
   "label": "zNewExternals",
-  "position": 2,
+  "position": 1,
   "link": {
     "type": "generated-index",
     "description": "Zapoznaj się z nowymi funkcjami silnika ZenGin. Aby używać `zNewExternals`, należy zainstalować `Union 1.0m` oraz umieścić `zNewExternals.dll` w `System\\Autorun`."
