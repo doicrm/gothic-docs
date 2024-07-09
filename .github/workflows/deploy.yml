@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build website
+        working-directory: gothic-docs
         run: yarn build
 
       - name: Upload Build Artifact
