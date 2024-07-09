@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgothic_docs=self.webpackChunkgothic_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/gothic-docs/blog","blogTitle":"Blog"}')}}]);
