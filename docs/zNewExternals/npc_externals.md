@@ -51,7 +51,11 @@ func int Npc_GetSlotItem(var C_NPC npc, var string slotName) {};
 :::info Przykład użycia
 
 ```csharp
-Npc_GetSlotItem(self, "ZS_LEFTHAND");
+var C_Item torch; torch = Npc_GetSlotItem(slf, "ZS_LEFTHAND");
+
+if (!Hlp_IsValidItem(torch)) { return FALSE; };
+
+return Hlp_IsItem(torch, ItLsTorchBurning) || Hlp_IsItem(torch, ItLsTorchBurned);
 ```
 
 :::
