@@ -52,18 +52,18 @@ Wld_RemoveVob("DEMONPORTAL01");
 
 :::
 
-## `Wld_RotateVob`
+## `Vob_Rotate`
 
 Służy do obracania voba o konkretnej nazwie w świecie gry.
 
 ```csharp
-func void Wld_RotateVob(var string vobName, var int posX, var int posY, var int posZ) {};
+func void Vob_Rotate(var string vobName, var int posX, var int posY, var int posZ) {};
 ```
 
 :::info Przykład użycia
 
 ```csharp
-Wld_RotateVob("DEMONPORTAL01", 180, 360, 90);
+Vob_Rotate("DEMONPORTAL01", 180, 360, 90);
 ```
 
 :::
