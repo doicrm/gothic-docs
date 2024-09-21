@@ -52,6 +52,22 @@ Wld_RemoveVob("DEMONPORTAL01");
 
 :::
 
+## `Wld_RotateVob`
+
+Służy do obracania voba o konkretnej nazwie w świecie gry.
+
+```csharp
+func void Wld_RotateVob(var string vobName, var int posX, var int posY, var int posZ) {};
+```
+
+:::info Przykład użycia
+
+```csharp
+Wld_RotateVob("DEMONPORTAL01", 180, 360, 90);
+```
+
+:::
+
 ## `Vob_SetVisual`
 
 Zmienia wygląd vob o konkretnej nazwie w świecie.
@@ -84,7 +100,7 @@ Vob_ClearVisual("DEMONPORTAL01");
 
 :::
 
-## `Vob_MoveToWP`
+<!-- ## `Vob_MoveToWP`
 
 Przenosi vob o konkretnej nazwie na waypoint/freepoint lub inny vob o konkretnej nazwie w świecie.
 
@@ -114,4 +130,4 @@ func void Vob_MoveToPos(var string vobName, var int posX, var int posY, var int 
 Vob_MoveToPos("DEMONPORTAL01", 1, 2, 3);
 ```
 
-:::
+::: -->
