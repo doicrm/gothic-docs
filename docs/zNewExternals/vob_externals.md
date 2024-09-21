@@ -100,18 +100,18 @@ Vob_ClearVisual("DEMONPORTAL01");
 
 :::
 
-<!-- ## `Vob_MoveToWP`
+## `Vob_MoveTo`
 
 Przenosi vob o konkretnej nazwie na waypoint/freepoint lub inny vob o konkretnej nazwie w świecie.
 
 ```csharp
-func void Vob_MoveToWP(var string vobName, var string pointName) {};
+func void Vob_MoveTo(var string vobName, var string pointName) {};
 ```
 
 :::info Przykład użycia
 
 ```csharp
-Vob_MoveToWP("DEMONPORTAL01", "OC1");
+Vob_MoveTo("DEMONPORTAL01", "OC1");
 ```
 
 :::
@@ -130,4 +130,4 @@ func void Vob_MoveToPos(var string vobName, var int posX, var int posY, var int 
 Vob_MoveToPos("DEMONPORTAL01", 1, 2, 3);
 ```
 
-::: -->
+:::
