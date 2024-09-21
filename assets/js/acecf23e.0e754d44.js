@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgothic_docs=self.webpackChunkgothic_docs||[]).push([[903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/gothic-docs/blog","blogTitle":"Blog","authorsListPath":"/gothic-docs/blog/authors"}')}}]);
